@@ -46,8 +46,8 @@ Our framework now support four multi-source domain adaptation datasets: ```Digit
 *DigitFive:*
 The DigitFive dataset can be accessed in [DigitFive](https://drive.google.com/file/d/1QvC6mDVN25VArmTuSHqgd7Cf9CoiHvVt/view).
 
-*OfficeCaltech10:*
-The OfficeCaltech10 dataset can be accessed in [OfficeCaltech10](https://www.hemanthdv.org/officeHomeDataset.html).
+*OfficeHome:*
+The OfficeCaltech10 dataset can be accessed in [OfficeHome](https://www.hemanthdv.org/officeHomeDataset.html).
 
 *DomainNet:*
 The DomainNet dataset can be accessed in [DomainNet](http://ai.bu.edu/M3SDA/).
