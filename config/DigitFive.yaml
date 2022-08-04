@@ -1,0 +1,27 @@
+---
+DataConfig:
+  dataset: "DigitFive"
+
+ModelConfig:
+  backbone: "CNN"
+  pretrained: False
+
+TrainingConfig:
+  batch_size: 128
+  # The total data numbers we use in each epoch
+  epoch_samples: 25000
+  total_epochs: 100
+  # We decay learning rate from begin value to end value with cosine annealing schedule
+  learning_rate_begin: 0.05
+  learning_rate_end: 0.001
+
+# The configuration for our federated multi-source domain adaptation on black-box models
+UMDAConfig:
+  # As stated in paper, we gradually increase confidence_gate from low to high
+  confidence_gate_begin: 0.8
+  confidence_gate_end: 0.95
+  # Controlling whether to use the batchnorm_mmd
+  batchnorm_mmd: True
+  # the communication rounds in decentralized training, can be set into [0.2, 0.25, 0.5 ,1, N]
+  communication_rounds: 0.2
+  # the malicious domain with poisoning attack
