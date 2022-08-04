@@ -62,7 +62,7 @@ if __name__ == '__main__':
                         help='how many epochs for linear drop rate, can be 5, 10, 15.')
     parser.add_argument('--exponent', type=float, default=1,
                         help='exponent of the forget rate, can be 0.5, 1, 2. This parameter is equal to c in Tc for R(T) in Co-teaching paper.')
-    parser.add_argument('-bp', '--base-path', default="/media/lxh/document/")
+    parser.add_argument('-bp', '--base-path', default="/media/document/")
 
     parser.add_argument('--target-domain', default="amazon", type=str,
                         help="The target domain we want to perform domain adaptation")
