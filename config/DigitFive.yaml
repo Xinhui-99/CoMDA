@@ -24,4 +24,3 @@ UMDAConfig:
   batchnorm_mmd: True
   # the communication rounds in decentralized training, can be set into [0.2, 0.25, 0.5 ,1, N]
   communication_rounds: 0.2
-  # the malicious domain with poisoning attack
