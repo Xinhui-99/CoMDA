@@ -1,6 +1,6 @@
-# Federated Multi-source Domain Adaptation on Black-Box Models
+# Co-MDA: Trustworthy Federated Multi-source Domain Adaptation on Black-Box Models
 
-Here is the implementation of the model L2MDA in paper: Federated Multi-source Domain Adaptation on Black-Box Models.
+Here is the implementation of the model Co-MDA in paper: Co-MDA: Trustworthy Federated Multi-source Domain Adaptation on Black-Box Models.
  
 
 ## Model Review:
