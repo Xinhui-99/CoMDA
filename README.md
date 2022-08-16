@@ -4,7 +4,7 @@ Here is the implementation of the model Co-MDA in paper: Co-MDA: Trustworthy Fed
  
 
 ## Model Review:
-![framework](resources/framework.png)
+![framework](resources/model_compressed.pdf)
 
 ## Setup
 
