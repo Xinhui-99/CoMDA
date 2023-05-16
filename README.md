@@ -4,7 +4,7 @@ Here is the implementation of the model Co-MDA in paper: Co-MDA: Federated Multi
  
 
 ## Model Review:
-![framework](resources/IMG_00001.png)
+![framework](resources/model1.pdf)
 
 ## Setup
 
