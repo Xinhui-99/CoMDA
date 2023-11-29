@@ -1,7 +1,6 @@
 # Co-MDA: Federated Multi-source Domain Adaptation on Black-box Models
 
-Here is the implementation of the model Co-MDA in paper: Co-MDA: Federated Multi-source Domain Adaptation on Black-box Models.
- 
+This repository provides the implementation for our paper: [Co-MDA: Federated Multi-source Domain Adaptation on Black-box Models](https://ieeexplore.ieee.org/abstract/document/10128163)
 
 ## Model Review:
 ![framework](resources/model.png)
