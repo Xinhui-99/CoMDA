@@ -60,7 +60,9 @@ python main.py --config DigitFive.yaml --target-domain mnistm -bp base_path -for
 python main.py --config DigitFive.yaml --target-domain mnist -bp base_path -forget_rate 0.04
 python main.py --config DigitFive.yaml --target-domain svhn -bp base_path -forget_rate 0.08
 ```
+
 **Citation**
+
 If you use this code, please cite:
 ```python
 @article{liu2023co,
